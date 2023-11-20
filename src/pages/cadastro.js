@@ -14,33 +14,27 @@ const CadastroDoadorPage = () => {
       <Appbar.Content title={'Campanha do Quilo'} />
     </Appbar.Header>
       <Body>
- <View style={styles.container}>
       <Text style={styles.container.title}>NOVO CADASTRO</Text>
       <SafeAreaView>
         <TextInput 
         style={styles.container.input}
         placeholder="Nome Completo"
-        keyboardType="text"
         />
         <TextInput
           style={styles.container.input}
           placeholder="Bairro"
-          keyboardType="text"
         />
         <TextInput
           style={styles.container.input}
           placeholder="Cidade"
-          keyboardType="text"
         />
         <TextInput
           style={styles.container.input}
           placeholder="Estado"
-          keyboardType="text"
         />        
         <TextInput
           style={styles.container.input}
           placeholder="Contato"
-          keyboardType="text"
         />
         <TextInput
         secureTextEntry={true}
@@ -61,7 +55,6 @@ const CadastroDoadorPage = () => {
         }}>
         Entrar
       </Text>
- </View>
  </Body>
  </Container>
  </SafeAreaProvider>
@@ -74,8 +67,6 @@ const styles = StyleSheet.create({
       justifyContent:'center',
       color: '#6D7E92',
       },
-    flex: 1,
-    alignItems: 'center',
     border: {borderWidth: 1, borderColor: '#d5d5d5', width: 100,},
     cadastro: {fontSize:8},
     title:{fontSize:18, padding: 10, color:'#6D7E92'},

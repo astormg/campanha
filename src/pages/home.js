@@ -54,6 +54,7 @@ const styles = StyleSheet.create({
     height: 300,
   },
   box: {
+    width: '80%',
     marginBottom: 10,
   },
   title: {

@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#FFF',
     margin: 8,
+    alignItems: 'center'
   },
 });
 
