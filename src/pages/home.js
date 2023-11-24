@@ -29,16 +29,18 @@ const Cadastro = () => {
         </View>
         <Button
           style={styles.box}
-          color="#FE7277"
-          mode="contained"
+          buttonColor="#FE7277"
+          textColor={'black'}
+          mode="outlined"
           onPress={() => Alert.alert('Preste Atenção!', 'Teste do botão Cadastrar')}>
           Cadastrar
         </Button>
         <Button
           style={styles.box}
           icon="key"
-          color="#FE7277"
-          mode="contained"
+          buttonColor="#FE7277"
+          textColor={'black'}
+          mode="outlined"
           onPress={() => Alert.alert('Preste Atenção!','Teste do Botão Entrar')}>
           Entrar
         </Button>
